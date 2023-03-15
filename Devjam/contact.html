@@ -17,7 +17,7 @@
                 <img src="Images/logo.jpg">
             </a>
         </div>
-        
+
         <div class="logotitle">
             <a href="index.html">
                 <h2>TitanMovies</h2>
@@ -36,30 +36,31 @@
 
         <div class="search">
             <input type="text" placeholder="Search Your Favourite Movies">
-            <img src="Images/search-icon.png" >
+            <img src="Images/search-icon.png">
         </div>
 
     </div>
-    
+
     <hr class="hr1">
     <br>
     <h1 id="ab">Contact Us</h1>
     <hr id="ahr">
     <br>
     <br>
-        <p class="field">Your Name</p>
+    <form onsubmit="sendEmail(); reset(); return false;">
+        <p class ="field">Your Name</p>
         <br>
-        <input type="text" class="fieldarea">
+        <input type="text" id="name" class="fieldarea" required>
         <br>
         <br>
         <p class="field">Your Email</p>
         <br>
-        <input type="email" class="fieldarea">
+        <input type="email" id="email" class="fieldarea" required>
         <br>
         <br>
         <p class="field">Subject</p>
         <br>
-        <input type="text" class="fieldarea">
+        <input type="text" id="subject" class="fieldarea" required>
         <br>
         <br>
         <p class="field">Message</p>
@@ -69,10 +70,10 @@
         <br>
 
         <button type="submit" id="btn">Submit</button>
-    
-    
+    </form>
 
+    <script src= "https://smtpjs.com/v3/smtp.js"></script>
     <script src="index.js"></script>
 </body>
-        
+
 </html>
