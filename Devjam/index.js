@@ -17,3 +17,40 @@ function sendEmail(){
       message => alert("Form submitted successfully")
     );
 }
+
+secelm=document.getElementById('btn');
+
+function anima()  {
+    var i = 0;
+    const elm = document.getElementById('btn');
+    let id = null;
+    clearInterval(id);
+    id = setInterval(reduce,5);
+    function reduce(){
+        if (i==22){
+            clearInterval(id);
+        } else{
+            i++;
+            elm.style.borderRadius= (i+"px");
+        }
+    }
+}
+
+function anima2()  {
+    var i = 22;
+    const elm = document.getElementById('btn');
+    let id = null;
+    clearInterval(id);
+    id = setInterval(reduce,5);
+    function reduce(){
+        if (i==7){
+            clearInterval(id);
+        } else{
+            i--;
+            elm.style.borderRadius= (i+"px");
+        }
+    }
+}
+
+secelm.addEventListener('mouseover',anima);
+secelm.addEventListener('mouseout', anima2);
