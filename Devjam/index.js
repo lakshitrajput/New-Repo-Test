@@ -14,7 +14,7 @@ function sendEmail(){
         Subject : "New contact from enquiry",
         Body : body
     }).then(    
-      message => alert("Form submitted successfully")
+      message => alert("Message Sent Successfully")
     );
 }
 
