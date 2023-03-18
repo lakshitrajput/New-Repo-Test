@@ -31,6 +31,7 @@ You can download latest movies and TV shows from our website.
 
 
 We are a team of four amateurs in the field of web development<br>
+<br>                                    
 Our team members are as follows:
 <ul>
   <li>Harshit Shukla</li>
@@ -38,5 +39,6 @@ Our team members are as follows:
   <li>Divyanshu Purbey</li>
   <li>Madan Mohan</li>
 </ul>
+                                                                
 You can reach us out through our contact us page
 
