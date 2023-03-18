@@ -1,6 +1,6 @@
 # Titan Movies
 <p align='center'>
-<img align='center' alt='TitanMovies' height='250px' width='250px' style="border-radius: 100%;" src="Devjam/Images/logo.jpg" >
+<img align='center' alt='TitanMovies' height='250px' width='250px' style="border-radius: 100px; " src="Devjam/Images/logo.jpg" >
 </p>
 
 ### Description :
