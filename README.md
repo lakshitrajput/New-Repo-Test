@@ -4,4 +4,4 @@
 </p>
 ### Description
 TitanMovies is a movie/TV shows downloading website<br>
-You can download latest movies and TV shows from our website
+You can download latest movies and TV shows from our website.
