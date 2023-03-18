@@ -1,6 +1,6 @@
 # Titan Movies
 <p align='center'>
-<img align='center' alt='welcome' height='250px' width='250px' src="Devjam/Images/logo.jpg" >
+<img align='center' alt='TitanMovies' height='250px' width='250px' src="Devjam/Images/logo.jpg" >
 </p>
 
 ### Description :
@@ -19,7 +19,9 @@ You can download latest movies and TV shows from our website.
 
 ### About us:
 
-### Teen Titans
+<p align='center'>
+<img align='center' alt='Teen Titans' height='100px' width='100px' src="https://www.stoneykins.com/Patterns/product_images/w/310/Teen_Titans_Logo_03_tn__73898_std.png" >
+</p>
 
 We are a team of four amateurs in the field of web development<br>
 Our team members are as follows:
