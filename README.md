@@ -1,6 +1,6 @@
 # Titan Movies
-<img align="center" height="200px" width="200px" src="Devjam/Images/logo.jpg">
-###Description
+<img display="inline-block" margin="auto" height="250px" width="250px" src="Devjam/Images/logo.jpg">
 
-TitanMovies is a website to download the latest movies, web series and tv shows.
-
+### Description
+TitanMovies is a movie/TV shows downloading website<br>
+You can download latest movies and TV shows from our website
