@@ -29,7 +29,7 @@ You can download latest movies and TV shows from our website.
 <br>
 </p>
 
-<p>
+
 We are a team of four amateurs in the field of web development<br>
 Our team members are as follows:
 <ul>
@@ -39,4 +39,3 @@ Our team members are as follows:
   <li>Madan Mohan</li>
 </ul>
 You can reach us out through our contact us page
-</p>
