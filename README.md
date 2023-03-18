@@ -1,4 +1,5 @@
-# Titan Movies
+# TeenTitans
+### TitanMovies
 <p align='center'>
 <img align='center' alt='TitanMovies' height='250px' width='250px' style="border-radius:100%; " src="Devjam/Images/logo.jpg" >
 </p>
