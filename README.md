@@ -8,7 +8,7 @@
 TitanMovies is a movie/TV shows downloading website<br>
 You can download latest movies and TV shows from our website.
 
-### Tech Stack :
+### Techstack : 
 
 <ul>
   <li>HTML for basic outline of the wensite</li>
@@ -39,3 +39,4 @@ Our team members are as follows:
   <li>Madan Mohan</li>
 </ul>
 You can reach us out through our contact us page
+
