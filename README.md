@@ -20,7 +20,7 @@ You can download latest movies and TV shows from our website.
 ### About us:
 
 <p align='center'>
-<img align='center' alt='Teen Titans' height='100px' width='100px' src="https://www.stoneykins.com/Patterns/product_images/w/310/Teen_Titans_Logo_03_tn__73898_std.png" >
+<img align='left' alt='Teen Titans' height='150px' width='150px' src="https://www.stoneykins.com/Patterns/product_images/w/310/Teen_Titans_Logo_03_tn__73898_std.png" >
 </p>
 
 We are a team of four amateurs in the field of web development<br>
