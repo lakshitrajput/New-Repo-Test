@@ -22,6 +22,8 @@ You can download latest movies and TV shows from our website.
 <p align='center''>
 <img align='left' alt='Teen Titans' height='150px' width='150px' src="https://www.stoneykins.com/Patterns/product_images/w/310/Teen_Titans_Logo_03_tn__73898_std.png" >
 <br>
+<br>
+<br>
 </p>
 
 <p>
