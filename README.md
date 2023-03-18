@@ -23,6 +23,7 @@ You can download latest movies and TV shows from our website.
 <img align='left' alt='Teen Titans' height='150px' width='150px' src="https://www.stoneykins.com/Patterns/product_images/w/310/Teen_Titans_Logo_03_tn__73898_std.png" >
 </p>
 
+<p>
 We are a team of four amateurs in the field of web development<br>
 Our team members are as follows:
 <ul>
@@ -32,3 +33,4 @@ Our team members are as follows:
   <li>Madan Mohan</li>
 </ul>
 You can reach us out through our contact us page
+</p>
