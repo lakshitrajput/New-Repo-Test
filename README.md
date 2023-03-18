@@ -29,4 +29,4 @@ Our team members are as follows:
   <li>Divyanshu Purbey</li>
   <li>Madan Mohan</li>
 </ul>
-You can reach us out at our <a href="Devjam/contact.html">contact us page</a>
+You can reach us out at our <a href="Devjam/contact.html" target='_blank'>contact us page</a>
