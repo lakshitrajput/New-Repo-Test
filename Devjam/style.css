@@ -247,5 +247,76 @@ body{
 }
 
 
+.main{
+    width: 90%;
+    height: auto;
+    margin: auto;
+    /* border: 1px solid white; */
+    display: flex;
+    flex-wrap: wrap;
+
+
+}
+
+.card{
+    position: relative;
+    width: 180px;
+    height: 290px;
+    overflow: hidden;
+    /* border: 1px solid white; */
+    margin: 10px;
+    border-radius: 20px;
+    
+}
+
+.card img{
+    width: 100%;
+    height: 100%;
+
+}
+.btn{
+position: absolute;
+width: 180px;
+height: 30;
+bottom:-40;
+left: 0;
+border: none;
+outline: none;
+font-size: 18px;
+cursor: pointer;
+transition:0.3s;
+background-color: #ff5e0e;
+opacity: 0.8;
+
+}
+
+.card:hover .btn{
+    bottom: 0;
+}
+
+.more{
+    margin-top: 145px;
+    margin-left: 20px;
+    font-size: 20;
+}
+
+.more a{
+    text-decoration: none;
+    color: white;
+}
+
+.movie_series{
+    font-size: 30px;
+    color: #e41b21;
+    margin-left: 50px;
+}
+
+hr{
+    width: 95%;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
 
 
