@@ -18,22 +18,16 @@ You can download latest movies and TV shows from our website.
 </ul>
 
 ### Website Screenshots:
-<img alt='screenshot' height='206px' width='350px' align="left" style="border-radius:100%; display:inline-block;" src="Devjam/Images/Screenshot (16).png" >
-<img alt='screenshot' height='206px' width='350px' align="right" style="border-radius:100%; display:inline-block;" src="Devjam/Images/Screenshot (17).png" >
-<img alt='screenshot' height='206px' width='350px' align="left" style="border-radius:100%; " src="Devjam/Images/Screenshot (18).png" >
-<img alt='screenshot' height='206px' width='350px' align="right" style="border-radius:100%; " src="Devjam/Images/Screenshot (19).png" >
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-
 <div>
-  ### About Us:
-
-  <img alt='Teen Titans' height='150px' width='150px' src="https://www.stoneykins.com/Patterns/product_images/w/310/Teen_Titans_Logo_03_tn__73898_std.png" >
+  <img alt='screenshot' height='206px' width='350px' align="left" style="border-radius:100%; display:inline-block;" src="Devjam/Images/Screenshot (16).png" >
+  <img alt='screenshot' height='206px' width='350px' align="right" style="border-radius:100%; display:inline-block;" src="Devjam/Images/Screenshot (17).png" >
+  <img alt='screenshot' height='206px' width='350px' align="left" style="border-radius:100%; " src="Devjam/Images/Screenshot (18).png" >
+  <img alt='screenshot' height='206px' width='350px' align="right" style="border-radius:100%; " src="Devjam/Images/Screenshot (19).png" >
 </div>
+
+### About Us:
+<img alt='Teen Titans' height='150px' width='150px' src="https://www.stoneykins.com/Patterns/product_images/w/310/Teen_Titans_Logo_03_tn__73898_std.png" >
+
 <br>
 <br>
 <br>
