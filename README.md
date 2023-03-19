@@ -1,4 +1,4 @@
-# TitanMovies
+# <h1 align="center">TitanMovies</h1>
 <p align='center'>
 <img align='center' alt='TitanMovies' height='250px' width='250px' style="border-radius:100%; " src="Devjam/Images/logo.jpg" >
 </p>
@@ -17,7 +17,7 @@ You can download latest movies and TV shows from our website.
   <li>Use of SMTP to send the mail in the contact us page</li>
 </ul>
 
-### About us:
+### About Us:
 
 <p align='center''>
 <img align='left' alt='Teen Titans' height='150px' width='150px' src="https://www.stoneykins.com/Patterns/product_images/w/310/Teen_Titans_Logo_03_tn__73898_std.png" >
@@ -32,12 +32,12 @@ You can download latest movies and TV shows from our website.
 
 We are a team of four amateurs in the field of web development<br>
 <br>                                    
-Our team members are as follows:
+### Contributors:
 <ul>
-  <li>Harshit Shukla</li>
-  <li>Lakshit Rajput</li>
-  <li>Divyanshu Purbey</li>
-  <li>Madan Mohan</li>
+  <li>Harshit Shukla    (20220025)  vaasuuu</li>
+  <li>Lakshit Rajput    (20220030)  Luxit5490</li>
+  <li>Divyanshu Purbey  (20220031)  madanmohan333</li>
+  <li>Madan Mohan       (20222064)  DivyanshuPurbey</li>
 </ul>
                                                                 
 You can reach us out through our contact us page
