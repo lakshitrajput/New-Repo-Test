@@ -26,10 +26,10 @@ We are a team of four amateurs in the field of web development<br>
 <br>                                    
 ### Contributors:
 <ul>
-  <li>Harshit Shukla    (20220025)  vaasuuu        </li>
-  <li>Lakshit Rajput    (20220030)  Luxit5490      </li>
-  <li>Divyanshu Purbey  (20220031)  madanmohan333  </li>
-  <li>Madan Mohan       (20222064)  DivyanshuPurbey</li>
+  <li><b>Harshit Shukla    (20220025)  <a href="https://github.com/vaasuuu">vaasuuu</a></b></li>
+  <li>Lakshit Rajput    (20220030)  <a href="https://github.com/Luxit5490">Luxit5490</a>      </li>
+  <li>Divyanshu Purbey  (20220031)  <a href="https://github.com/madanmohan333">madanmohan333</a>  </li>
+  <li>Madan Mohan       (20222064)  <a href="https://github.com/DivyanshuPurbey">DivyanshuPurbey</a></li>
 </ul>
                                                                 
 You can reach us out through our contact us page
