@@ -86,6 +86,7 @@ function search(){
             }
 
             document.getElementById('moviesmore').style.display='none';
+            document.getElementById('seriesmore').style.display='none';
             document.getElementById(arr[m]).style.display="";
             x=1
         }
