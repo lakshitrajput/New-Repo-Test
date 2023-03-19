@@ -17,8 +17,11 @@ You can download latest movies and TV shows from our website.
   <li>Use of SMTP to send the mail in the contact us page</li>
 </ul>
 
-### Website Screenshots
-<img alt='screenshot' height='182px' width='310px' style="border-radius:100%; " src="Devjam/Images/Screenshot (16).png" >
+### Website Screenshots:
+<img alt='screenshot' height='188px' width='320px' style="border-radius:100%; " src="Devjam/Images/Screenshot (16).png" >
+<img alt='screenshot' height='188px' width='320px' style="border-radius:100%; " src="Devjam/Images/Screenshot (17).png" >
+<img alt='screenshot' height='188px' width='320px' style="border-radius:100%; " src="Devjam/Images/Screenshot (18).png" >
+<img alt='screenshot' height='188px' width='320px' style="border-radius:100%; " src="Devjam/Images/Screenshot (19).png" >
 
 ### About Us:
 
