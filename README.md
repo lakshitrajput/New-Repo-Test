@@ -38,6 +38,7 @@ You can reach us out through our contact us page
 <p align='center'>
   <img alt='screenshot' height='206px' width='350px' align="left" src="Devjam/Images/Screenshot (16).png" >
   <img alt='screenshot' height='206px' width='350px' align="right"  src="Devjam/Images/Screenshot (17).png" >
+  <br>
   <img alt='screenshot' height='206px' width='350px' align="left"  src="Devjam/Images/Screenshot (18).png" >
   <img alt='screenshot' height='206px' width='350px' align="right" src="Devjam/Images/Screenshot (19).png" >
 </p>
