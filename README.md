@@ -22,6 +22,12 @@ You can download latest movies and TV shows from our website.
 <img alt='screenshot' height='206px' width='350px' align="right" style="border-radius:100%; display:inline-block;" src="Devjam/Images/Screenshot (17).png" >
 <img alt='screenshot' height='206px' width='350px' align="left" style="border-radius:100%; " src="Devjam/Images/Screenshot (18).png" >
 <img alt='screenshot' height='206px' width='350px' align="right" style="border-radius:100%; " src="Devjam/Images/Screenshot (19).png" >
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
 ### About Us:
 
