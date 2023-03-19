@@ -5,11 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Us - TitanMovies</title>
+    <!--Use of style sheets for desiging-->
     <link rel="stylesheet" href="contact.css">
     <link rel="shortcut icon" href="Images/logo.jpg" type="image/x-icon">
 </head>
 
 <body>
+    <!--Logo of the Website-->
     <div class="header">
         <hr id="hr2">
         <div class="logo">
@@ -23,7 +25,7 @@
                 <h2>TitanMovies</h2>
             </a>
         </div>
-
+        <!--Navigation bar of different pages-->
         <div class="navi">
             <ul>
                 <li><a href="index.html" id="a1">Home</a></li>
@@ -33,11 +35,11 @@
                 <li><a href="contact.html" id="a5">Contact Us</a></li>
             </ul>
         </div>
-
-       
-
-
-
+      <!--Search bar-->
+        <div class="search">
+            <input type="text" placeholder="Search Your Favourite Movies">
+            <img src="Images/search-icon.png">
+        </div>
 
     </div>
 
@@ -47,6 +49,7 @@
     <hr id="ahr">
     <br>
     <br>
+    <!-- Form for the visitors to contact the develop team-->
     <form onsubmit="sendEmail(); reset(); return false;">
         <p class ="field">Your Name</p>
         <br>
@@ -71,9 +74,10 @@
 
         <button type="submit" id="btn">Submit</button>
     </form>
-
+     <!--Use of JavaScript for database -->
     <script src= "https://smtpjs.com/v3/smtp.js"></script>
     <script src="index.js"></script>
 </body>
 
 </html>
+
