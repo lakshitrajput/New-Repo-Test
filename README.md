@@ -18,12 +18,12 @@ You can download latest movies and TV shows from our website.
 </ul>
 
 ### Website Screenshots:
-<div>
-  <img alt='screenshot' height='206px' width='350px' align="left" style="border-radius:100%; display:block;" src="Devjam/Images/Screenshot (16).png" >
-  <img alt='screenshot' height='206px' width='350px' align="right" style="border-radius:100%; display:block;" src="Devjam/Images/Screenshot (17).png" >
-  <img alt='screenshot' height='206px' width='350px' align="left" style="border-radius:100%; display:block" src="Devjam/Images/Screenshot (18).png" >
-  <img alt='screenshot' height='206px' width='350px' align="right" style="border-radius:100%; display:block" src="Devjam/Images/Screenshot (19).png" >
-</div>
+<p align='center'>
+  <img alt='screenshot' height='206px' width='350px' align="left" src="Devjam/Images/Screenshot (16).png" >
+  <img alt='screenshot' height='206px' width='350px' align="right"  src="Devjam/Images/Screenshot (17).png" >
+  <img alt='screenshot' height='206px' width='350px' align="left"  src="Devjam/Images/Screenshot (18).png" >
+  <img alt='screenshot' height='206px' width='350px' align="right" src="Devjam/Images/Screenshot (19).png" >
+</p>
 
 ### About Us:
 <img alt='Teen Titans' height='150px' width='150px' src="https://www.stoneykins.com/Patterns/product_images/w/310/Teen_Titans_Logo_03_tn__73898_std.png" >
