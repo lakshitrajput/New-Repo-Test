@@ -59,6 +59,10 @@ body{
     transform: scale(0.03);
 }
 
+.search img:hover{
+    cursor: pointer;
+}
+
 .navi{
     display: flex;
 }
