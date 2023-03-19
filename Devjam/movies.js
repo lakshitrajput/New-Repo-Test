@@ -11,7 +11,7 @@ function search(){
 
     for(var m=0;m<arr.length;m++){
         if (que==""){
-            window.location = "index.html";
+            window.location = "movies.html";
         }
         else if (arr[m].indexOf(que) > -1){
             let arr2 = document.getElementsByClassName('card')
