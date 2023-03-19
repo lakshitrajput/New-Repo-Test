@@ -63,12 +63,11 @@ secelm.addEventListener('mouseover',anima); //Adding the events to the function 
 secelm.addEventListener('mouseout', anima2); //Adding the events to the function anima2
 
 
-
-
+// Function for searching movies/series
 function search(){
-    let que = document.getElementById('searchtext').value.toLowerCase();
+    let que = document.getElementById('searchtext').value.toLowerCase(); // variable to take the searched element
     var eleme = document.getElementsByClassName('card');
-    let arr=[];
+    let arr=[]; //array to store all the id's of all the cards
     let x = 0;
     let arr2=[];
     for(var k=0;k<eleme.length;k++){
@@ -82,12 +81,12 @@ function search(){
         else if (arr[m].indexOf(que) > -1){
             let arr2 = document.getElementsByClassName('card')
             for (var n=0;n<arr2.length;n++){
-                arr2[n].style.display = 'none';
+                arr2[n].style.display = 'none'; // removing all the movies
             }
 
-            document.getElementById('moviesmore').style.display='none';
-            document.getElementById('seriesmore').style.display='none';
-            document.getElementById(arr[m]).style.display="";
+            document.getElementById('moviesmore').style.display='none'; //removing the more in movies
+            document.getElementById('seriesmore').style.display='none'; //removing the more in series
+            document.getElementById(arr[m]).style.display=""; // displaying only the searched one
             x=1
         }
     }
@@ -96,6 +95,7 @@ function search(){
     }
 }
 
+// function when enter key is pressed
 function yourFunctionName(event) {
     if (event.keyCode == 13) {
        search()
