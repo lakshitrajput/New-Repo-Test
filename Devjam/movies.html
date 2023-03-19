@@ -35,8 +35,8 @@
         </div>
 
         <div class="search">
-            <input type="text" placeholder="Search Your Favourite Movies">
-            <img src="Images/search-icon.png" >
+            <input type="text" placeholder="Search Your Favourite Movies" id="searchtext" onkeypress="return yourFunctionName(event)">
+            <img src="Images/search-icon.png" id="search-icon" onclick="search()">
         </div>
 
     </div>
@@ -48,64 +48,64 @@
     <hr>
     <hr>
 
-    <div class="main">
+    <div class="main" id="movies">
 
-        <div class="card">
+        <div class="card" id="shazam 2">
             <img src="Images/1shazam2.jpg" >
             <a href="https://drive.google.com/uc?export=download&id=1kU26L4KU07b23qTfd8JXvAhzFWE_wjiw" target="_blank"><button class="btn">Download</button></a>
         </div>
 
-        <div class="card">
+        <div class="card" id="everything everywhere all at once">
             <img src="Images/2eveything.jpg" >
             <a href="https://drive.google.com/uc?export=download&id=1y7zvPubr3ND9MXzm0mR9mAnvUHWiTu4P" target="_blank"><button class="btn">Download</button></a>
         </div>
 
-        <div class="card">
+        <div class="card" id="rrr">
             <img src="Images/3rrr.jpg" >
             <a href="https://drive.google.com/uc?export=download&id=1ySPULgpndaVbQ_m2osKdPFDm3_bpblOX" target="_blank"><button class="btn">Download</button></a>
         </div>
 
-        <div class="card">
+        <div class="card" id="varisu">
             <img src="Images/4varisu.jpg" >
             <a href="https://drive.google.com/uc?export=download&id=1ZlbWdnhfgSpS_uiSr5FlTFtjWjl_hVgB" target="_blank"><button class="btn">Download</button></a>
         </div>
 
-        <div class="card">
+        <div class="card" id="kgf 2">
             <img src="Images/5kgf2.jpg" >
             <a href="https://drive.google.com/uc?export=download&id=1PcBx9OAZ-jXtW3hWZztKm4M94YPGhwrx" target="_blank"><button class="btn">Download</button></a>
         </div>
 
-        <div class="card">
+        <div class="card" id="avengers: endgame">
             <img src="Images/7.2endgame.jpg" >
             <a href="https://drive.google.com/uc?export=download&id=1x5lmpZVMm_4RkL7WH9xBxYol1Z13Q-dz" target="_blank"><button class="btn">Download</button></a>
         </div>
 
-        <div class="card">
+        <div class="card" id="avatar 2">
             <img src="Images/6avatar2.jpg" >
             <a href="https://late-voice-3f8e.zerzuvarku.workers.dev//1395891942/aHR0cHM6Ly92aWRlby1kb3dubG9hZHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL0FLb2FicVF2OXFNS2NtUEROdjV5dDM3dU1PTFpBaHhfMzBtZHQ3bHlkMVNKZlBweVRzVFJtdlBVQVZ2eG5qRXQ4anc5dHNBM29qSlRKa2pBM2VpNkstb1dGa0pCUXFNOVNScmdxR1dUMHNFWHVSR1R3bm1PZHdscHBIaDJ2emNsc2pESkp5RWJmYnJLcFZfYWpUbDU2SWpwbGl3Tk9wTUk4Y3ViSlRUNU53OElRZndQaW9uVnJvSldQR1l6Z24wQVA1V2lQdy1SUFFEd2d3YTZ4UmhBOEkyRmFNa2syZkZTREtXUFR6VHFUYTRxUHlLcGtqVnJLSHZxbXBycmd6R1dONFpUV2tLVUFYN05rbGREcTBXZ0pJYWJxU1M4VF9nTENXbXRvRVdrZWRmN2hBZXZBMlRFSnBpaC1DT2R1RTc3WVNrVjJIVUpWMWRJN2lQSkdFbTFiT0dXVExDUWFTaFZqVVVCMUpRa0xmbWYtcjBaNW9MVURFQnZIaWoyeWtUOFFiekpzOGFqNFdOWC1iRkhYQXdlRG5vSUxZOFZrSk1yUFVMblpEZUR2MFFnWUg4aHJtQldQMjMtU1JTLUxteXBhZGFKaGYtdmdBci1SNVo2d2F2Tl82N19qSDFrNTdhY0pCTmhXb25LRWRIV0xOQ29hT0Zxc0dlODJDVkUxR01SdWdhQVd2dTZzcUdLWVMyQmZ5eXZLYnhqeG5NZUxFQ3FVTXYwMVh4MEhVN09rZzU3eG5fR3lfb1k5cU1Gb05Udm03Y1hmQS1jeFZfTEItNERZSllKMDN2YlR3a0FfeGZqWk9wYkNKWUFkam0xdGpZZkdnanBtZm13ekdqQzk3MU1jQlR4TWRHalVkMjhGZ0V4WFZaQ3ZVYy1IQVFmYS1ObVRzblRZRldVd2VrOWlUUGZXMXZ5LUUtaTBKYnZBRHpqSFJVTjBBbEEtNldBZm5RdC1kcUxyLVI1OWV3SlE4SGREUmJVdXd4MllNR2daN0ZrcnBLSHdOVlVKV2stSUlremlRQk0xRWRzd3ptaUJZMEtvWFhzZGczOUJXb29lN2t5LXFuZjVObFQxXzh6RW15azdZX2JmUEVjZDVUWWFYZGFwVEphaEIzakdkQ1hqV0pUWmZmdVdMNG9SVEJqLVBwcGhSWWcyNVJrWUViNFNwLXRyRVlSaF9hRFdVekF2Ui12T2lNRE1kRVYzVFVYQVNLYmRxUHA4cHRrcjQySTJEOG1PaC1pd0gzYTZxRVVpaU1tOEhOdjF2ZGcxVzdYX1loWnpfajdWRElXbFpvVThIR2RCTENtNDhYU295VjdZeXkxRG1IRVJHbWFYQjB3ZUMxdUk1eGlKblNDdG9lMGV1LXBFcURUM0VpVVVKWE5fZjZTUUQyakIyeGhZamJIQ0ZTWWZaV0Nyem5ZVFZpbE9SdmM5VF84NkpuWXdOOTJxT2tURWxicWREbmpfRkFiekVPdXhVT091UEhRc0xld0lBeUJ4TXdLVXFtemxtMGtObEJFVkI0bEpZdUpYbWR0RDVsRElhU3EyTFlfcFd2RzNDbmU1WGlJZkJkckg1RHlNeXhlUkE=" target="_blank"><button class="btn">Download</button></a>
         </div>
 
-        <div class="card">
+        <div class="card" id="kantara">
             <img src="Images/7Kantara.jpeg" >
             <a href="https://spring-mountain-773e.boricot1128400.workers.dev//1395891942/aHR0cHM6Ly92aWRlby1kb3dubG9hZHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL0FLb2FicVFaN2RqaHBNNmVXalk4Wmx5YmlGXzVBSzJwOERTSEpfM1dYb0FSY3R6TEh0dWlPalFDWE1hT0cyNHRWV3Z1YUpCSzFvRG1VVkFOTko5YnRJLVFUUGdBVzIycEtvNGVISU93NGVTTWNFV2FOZXdvVzZNYnQwNU5PcEM2TXg4NFpLNWRaSU4ybUhmckVxSlBLLWYyMHBEeHZnNmlEVnJhLUtjOVVRRHFyalhaY2h3SlhCcjcxSlJNQm13Z1kzV0xYOWZtbFNoSEJZTFBETTBVZ1o1OHNTU1NQR3pISzhfY2pKcTVtQWpmbXpHR0xVLUhNYkszNW91a01VUUZWQXZLOUtNOGNPMzlpN0JXOWdpay1Oa3RBRVhRZC1jbDFQN3pFa1g2UXZ0VjZqWFlLTzlzcEZhcC15Wm1BVG1nbE80VXRzUHFyQURObnlteFJIRjlfdDBFekxFcUhmOGp5SnJkaXMtcjR4b3pWQk92YXpBZEZyVlk3c0FKLTljVW9FcnJJS2pyQkxBMEZraV9YaUFwSXllOTdhTG1DcDFMLWlNNUx0ZDRINzVfcS1xd0xKeDNzeVhrUS1EVnZSekw3cFVXS1RvdHhBTXpZMDdNWEM2d2JLMDNvVUpBS2hNOW1iajdGNTltQWJrY282MDBlSm9VdFB0b2ZKMldRMHdpclNqS2hQYWhfM3FWTTN5QTJIT0Z1b1NnaGdiemE0Qlo2bFp5MENNa2d5dmUzckI3NGs5cTZDalZNSFhRNFJCbm9uX0puVmppUHQteHZ1MG9EcG9hOTdWZXp1ZkttaWs4WGhHa3h4b0NTSXBvVlp5X1ZtZ19abWtBUF9vTzlaTXNSZGZPS3VGWUxreWltUmdPUFI1TFptN3FKMlBuZy1fZi0xTV9CUUxnMnhTNEdsemJpY1RseXlwa19WenZEakpOUGo1V2tNYlowUDBvUjRZLUZnYXFtb0tES2gzQnY4aDl0Q2x6eXdkb3ZGVHRfOEVkWWVRTjRVbVhTblBEQ3dOb0E2WjFmeEdNZndzczVELWN0Z3Z3OGhFRWU1ZkU3WXl1YkQ1bFdVb1hlU0N3ZzFhd0lRanBJWVNGZUt2eGNZa0x6UHppdWV3XzJKeXdxaEdmdlpNTHpuSXV1Sy1TNnVUbVBud3dwSHhjTDd4enFodnpGaGR4WHVpRlJud2NPbzdEaExLQ1JIcmlyVWdNZ0tsQWtWX3VTUGwxWVhLdU54TXp5R0Rwd2kwUUptZUw2eVJ1eFRhNUhXN3l4c3UzREkwVzNELWw5VDdJQUdlWjZoWTFIcjlZazBVclFkRk5YNGtON2twdDZMVEFfY2lJeHVhNjIwb2dVZXRvRk1hbGN2RG5qellJS0h4SkROT0g2bHplWTMwQmlhME5Kd0NITVdRVWJCbkJhVWpxNzFINDVQOHE5aWlzXzVFSG1FMkpLRS1xVnB1ak1jTnl5b0Q4LTdZVTNaVjFUd3NaSVYwV3lOUDRnT084MFhaQW9ETHh5Z1dvM1lEMTBVOVpacnkzaExEb2hpZGpvLXdYMjBKRkpoZXp1TnFMdWpwMTlMSHI2U2RVdHc=" target="_blank"><button class="btn">Download</button></a>
         </div>
 
-        <div class="card">
+        <div class="card" id="avengers infinity war">
             <img src="Images/8.1infinitywar.jpg" >
             <a href="https://drive.google.com/uc?export=download&id=1MOEGU4CEgGKnCj5Cb1HLRiB2DPKc-H_k" target="_blank"><button class="btn">Download</button></a>
         </div>
 
-        <div class="card">
+        <div class="card" id="doctor g">
             <img src="Images/8doctorg.jpg" >
             <a href="https://video-downloads.googleusercontent.com/AKoabqQC6ZN0s7jlmDJoe0t_2nmUp_dDltpep_q-OTBM6PicT5vtZyejFh-CVahYcPVEk74huDf1Ou3a9h09j2LX_mAfnhao7fz_phwRpRcDNADhwEAb3pvZ_TXlLzgDLzv6KVFbS14sqYrEeG-5XC7mVmrFwFPuYII0P3Ayb-cWlnOWh_kubSAfT_mupD4Y_v-QHINZvNJexBcMEI_3rF1izRCI3w9Q_0NfZVE3JuEWHSO7rBONaJJU2RoIzx5TH7VpDWh3P0OIZB3cNigjPY1O5_FNlExbnKzj7GXfO4LBJYVAcBn7mOjNbwL1PeKL1eTStlDutOW6-QpCMBDBkK3DVp1aVfeBBmhNYyqPsg98fzD0Jrvq-uf7Rlz8hu11mX1jst3D0AVkVroNfdQJG5xA0iRFOt20Glc2EjPO2xFllGc8MX0x79SbpYkDJ073hMW7sEQeLzyojPGnEJbhIXQp7mLThyzkqICb5GFsyAR5T7sFfGYe_R_etfGcqjR7dxnqCV8zpwJqmstAK39Z9nlTNr2vrYfRNi0f_34P2eofP45BFgESTjH_wZE4Mv0GxbuYD2lJeFIeH2HioS9gKaOawiv9q2M0Ww9XG4r6e160Hz9hde21lycFrFv5ntmCHEGmPjoN_pcRdcO64P_8eEbor4VL6h68-q56GpjrX1GZpjqfFPTCHguVZMWeUJKWCeUJgQmQU8ElnnuK7TpqJCQe66buAoLfQ4ZdlG5nnZHjxtlFS1erPkouwnMoHoe75dMmWD2oMLXu62_EQED5lM-d_rSOsLy8DSczUGv6aUWIGapHJxG5cjBLgHBJ2l2JOZMN2marIsgZEYct3FEBtgW20FyNeBt1zTHaBEQpi6IvuGfvswRZxv5LuNTWqwY6jMlDM0Am-K-JZFX1KqIoZGj_CnlIEO4nfImX9bc1wl9BavuuacsPtRZISAFJdZoTOYciUC6A_w304uahL3NSuwEWchM5Pz4UccR66Sg3RhqaKuEeFw3TR3E09a6e1nKcNUgCfzzhav0Tk6my1rWB4KFEHW5B2E0pZhM3LmYegHJb5pRTZwt6pTy81l43EA4UttIegiiMa4UAuY-lPiF5eHEq1e3372eQTumoKKK2O2WAmJ9U8XQ11UajwQwYA89mykqv3qhBInzjKqjt-OAgdw4bda4PAsowhw" target="_blank"><button class="btn">Download</button></a>
         </div>
 
-        <div class="card">
+        <div class="card" id="zwigato">
             <img src="Images/9zwigato.jpg" >
             <a href="https://drive.google.com/file/d/1QiBVgGk4oMqizovKLiMHb0V4fGZjqWSa/view?usp=sharing" target="_blank"><button class="btn">Download</button></a>
         </div>
 
-        <div class="card">
+        <div class="card" id="spiderman no way home">
             <img src="Images/10Spiderman.jpg" >
             <a href="https://tight-sun-416e.yidal836637716.workers.dev//1395891942/aHR0cHM6Ly92aWRlby1kb3dubG9hZHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL0FLb2FicVE4cnJ4R0k1NWhyVUduckgyc2FONTZHNi1IUFo5YVNfcGsxTTFJUVpDTDYyRjY2R0Z3U0VrZ0RtNkl5MnRBMDBycmZRM21xSWc4ekhUTXMtNmNNaFhLYmcyc3BJQWkyRC1sMGo5eWRNdEFuMUNfZjllUlRWTEhoOV9GWWh6UUdwbXotTW4xQ0IzMGg2X1VWSVRQR2tYVlJVSEJKbEIyM1NKckxmakVuNWFhS21IM29JUGN4WkltTmxNMmc4WTJRTnhYcjgzc0tQbGc1MzhGaVA4cnpscHVjYzN1bHZpMlFBblhralV2LTVOMmRYZEFtN1NOVnRqSGRzMW9QcEtETlkwM2FleTBmby1jS3p1SXkxMklHWkthQ0luYzFFQS12ZVlUNnI2WXNMdFJMbEZYMGVyeHBxZEVOOVlieDZUcmRjay1pRE50Wkc4UjNPTWxDbUllVGRhaGdhN2NWQUdya0Z1MjZLV1BkRkYzUFEtb1pwbE4yNTRXdVk3R0dVbE1xNV93MkN0YTlIUWVBRTNiZ2tsMmxDNER6TTdQdVNZRm9uWXBTaXJaYkdSa2VDQVFEWWVucHlWMHh6aXk3OTRBUzZRc1hLSVRhZ3cydmlxV2o2SmpsTTJSWnU4aDhrSkRDenRyOXVBZ1lUMzNURW1NRFVzQ01WNGtHYVVyR3JWS1ZydVpuLUVkWmtWWUt2NFNFckRyalJoU1VZLThvUWpDMHZLS21IRUg0ZHFFTVItRHBsNzBTMktSOVNxRW1uZUZ0U1M0RWhmbTF4czhyTm14UWcwa2JZYWQxV0VQOG5Gb2Z4amY2bWl1QmFITFVsM3BFU011Z3kwcnRoMHk4cXNKUjFKb3dOVDQzY0d2STYxSUFrZTA3dlpWeEczUkU3bkVRNG1UX0Z2bF9FVVFraWxFUzdhQURtQnpydm04QVh2dzUxT1VXTEp3c2xtS0diRnczeC03ODFueG81SHlMdUUtUHFjSExCZnJTNXpxbDRSNzdOdlVCeFMzaURYUWZFV1A5Y3FwWThKTEloNktoWHFWMXpkcG9fR0VMbmhqa0VfTEtSazB6UjFLWkc1LUhnNWQ1V0ViNXlxVklHWE5Ha3FNV2c1OHM0Q3RGQU1kdFFuM2xXWTgtQUNiMUZmWUZISngyLW96LWM4bER4bUJLWDBndmpiZVNCR0lOaVhmNEZYbG5TUTJTcjczT0lMcGJ5RVp3NWF6QkxfTVRXRFptSTZtZC1KUzdVekFNb0RFeGZ0ajhiLWtKbHV2R1hXVWlvNzJtd29WTkJDSW5yQmVfREdRVnpsbEN1ZW91bzVQM1Y3Vm14VWh6UUJXb2Q2bW9ES2lmQVozdTdCSm9uUHFEUzVjUGsxY19KZW1RVFNEcVYta3UxSVc4RmVWSDVPWTRqdVlSVm95V0JJUGVGckdYWmw4V2ZSUEFlSzFFUjd6LU9iOWR2bWZzOVhxOG9MRUloMWZWVTRpQTBjX3o1NTJ3andxTlVuZnQzUlg3b0xRcFh0WWF5MFFSN08zeElhcFlnVkhHMGx0OFZ0blBMU2tJQmpJOUFmMkNobGRvT21rNXc=" target="_blank"><button class="btn">Download</button></a>
         </div>
