@@ -29,17 +29,17 @@ You can download latest movies and TV shows from our website.
 <br>
 <br>
 
-### About Us:
+<div>
+  ### About Us:
 
-<img alt='Teen Titans' height='150px' width='150px' src="https://www.stoneykins.com/Patterns/product_images/w/310/Teen_Titans_Logo_03_tn__73898_std.png" >
+  <img alt='Teen Titans' height='150px' width='150px' src="https://www.stoneykins.com/Patterns/product_images/w/310/Teen_Titans_Logo_03_tn__73898_std.png" >
+</div>
 <br>
 <br>
 <br>
 <br>
 <br>
 <br>
-</p>
-
 
 We are a team of four amateurs in the field of web development<br>
 <br>                                    
