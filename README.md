@@ -34,9 +34,9 @@ We are a team of four amateurs in the field of web development<br>
 <br>                                    
 ### Contributors:
 <ul>
-  <li>Harshit Shukla    (20220025)  vaasuuu</li>
-  <li>Lakshit Rajput    (20220030)  Luxit5490</li>
-  <li>Divyanshu Purbey  (20220031)  madanmohan333</li>
+  <li>Harshit Shukla    (20220025)  vaasuuu        </li>
+  <li>Lakshit Rajput    (20220030)  Luxit5490      </li>
+  <li>Divyanshu Purbey  (20220031)  madanmohan333  </li>
   <li>Madan Mohan       (20222064)  DivyanshuPurbey</li>
 </ul>
                                                                 
