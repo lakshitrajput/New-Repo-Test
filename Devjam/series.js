@@ -37,4 +37,9 @@ function yourFunctionName(event) {
     }
  }
 
+let icon=document.getElementById("lmdm")
 
+ function darkmode()
+ {
+    document.body.classList.toggle("lighttheme");
+ }
