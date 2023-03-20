@@ -21,6 +21,20 @@ body{
 
 }
 
+.lighttheme{
+    background-image: none;
+}
+
+
+#lmdm{
+    width: 30px;
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+    top: 50;
+    border-radius: 100%;
+}
+
 .header{
     margin-top: 10px;
     display: flex;
