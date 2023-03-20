@@ -104,3 +104,11 @@ function yourFunctionName(event) {
        return true;
     }
  }
+
+
+ let icon=document.getElementById("lmdm")
+
+ function darkmode()
+ {
+    document.body.classList.toggle("lighttheme");
+ }
